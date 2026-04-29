@@ -1,0 +1,16 @@
+# Claude Code per-developer overrides — never commit
+.claude/settings.local.json
+.claude/.credentials.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Node / Python common
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.local

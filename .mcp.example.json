@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "example-stdio": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["./mcp-servers/example/server.js"],
+      "env": {}
+    },
+    "example-http": {
+      "type": "http",
+      "url": "http://localhost:8787/mcp",
+      "headers": {}
+    }
+  }
+}
